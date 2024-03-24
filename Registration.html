@@ -5,115 +5,55 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/all.css">
     <title>GREENSHOP</title>
 </head>
 <body>
-<div style="max-width: 500px; margin: auto; border: solid 2px black; padding:52px 100px 50px; box-sizing: border-box;">
-    <div style="text-align: center;">
-        <span style="font-weight: 500;
-          font-size: 20px;
-          line-height: 80%;
-          padding: 12px;
-          color: #3d3d3d;">Login</span>
-        <span style="color: #3d3d3d;position:relative;top: -2px" >|</span>
-        <span style="font-weight: 500;
-          font-size: 20px;
-          line-height: 80%;
-          padding: 10px;
-          color: #46a358;">Register</span>
+<div class="container" >
+    <div class="main" >
+        <span class="main__log" >Login</span>
+        <span class="main__|"  >|</span>
+        <span class="main__reg" >Register</span>
     </div>
-    <p style="margin-top: 40px;font-weight: 500;
-              font-size: 15px;
-              line-height: 123%;
-              color: #3d3d3d;">Enter your email and password to register.</p>
+    <p class="paragraf" >
+        Enter your email and password to register.</p>
     <form name="register" action="#" method="post">
-        <div style="margin-top: 14px">
-            <input type="text" name="username" placeholder="Username" id="username"
-                   style="font-weight: 400;
-                   font-size: 14px;
-                   line-height: 114%;
-                   color: #a5a5a5;
-                   padding: 12px 14px;
-                   border: 1px solid #EAEAEA;
-                   border-radius: 5px;
-                   width: 100%;
-                   height: 40px;
-                   box-sizing: border-box;">
+        <div class="form" >
+            <input class="username" type="text" name="username"
+                   placeholder="Username" id="username">
         </div>
-        <div style="margin-top: 14px">
-            <input type="email" name="email" placeholder="Enter your email address" id="email"
-                   style="font-weight: 400;
-                   font-size: 14px;
-                   line-height: 114%;
-                   color: #a5a5a5;
-                   padding: 12px 14px;
-                   border: 1px solid #EAEAEA;
-                   border-radius: 5px;
-                   width: 100%;
-                   height: 40px;
-                   box-sizing: border-box;">
-        </div>
-        <div style="margin-top: 14px">
-            <input type="password" name="password" placeholder="Password" id="password"
-                   style="font-weight: 400;
-                   font-size: 14px;
-                   line-height: 114%;
-                   color: #a5a5a5;
-                   border: 1px solid #EAEAEA;
-                   padding: 12px 14px;
-                   border-radius: 5px;
-                   width: 100%;
-                   height: 40px;
-                   box-sizing: border-box;">
-        </div>
-        <div style="margin-top: 14px">
-            <input type="password" name="confirm_password" placeholder="Confirm Password" id="confirm_password"
-                   style="font-weight: 400;
-                   font-size: 14px;
-                   line-height: 114%;
-                   color: #a5a5a5;
-                   padding: 12px 14px;
-                   border: 1px solid #EAEAEA;
-                   border-radius: 5px;
-                   width: 100%;
-                   height: 40px;
-                   box-sizing: border-box;">
-        </div>
-        <div style="margin-top: 41px">
-        <button type="submit" style="font-weight: 700;
-                                     border: none;
-                                     border-radius: 5px;
-                                     text-align: center;
-                                     cursor: pointer;
-                                     width: 100%;
-                                     height: 45px;
+        <div class="form">
+            <input class="email" type="email" name="email"
+                   placeholder="Enter your email address" id="email">
 
-                                     font-size: 16px;
-                                     line-height: 100%;
-                                     color: #fff;
-                                     background-color: #46A358;">Register</button>
+        </div>
+        <div class="form">
+            <input class="password" type="password" name="password"
+                   placeholder="Password" id="password">
+
+        </div>
+        <div>
+            <input class="confirm" type="password" name="confirm_password"
+                   placeholder="Confirm Password" id="confirm_password">
+
+        </div>
+        <div>
+        <button class="bottom" type="submit">Register</button>
         </div>
 
 
 
     </form>
-    <p style="text-align: center;font-weight: 300;
-                                 margin-top: 36px;
-                                 font-size: 17px;
-                                 line-height: 123%;
-                                 color: #3d3d3d;">Or register with</p>
-    <div style="border: 1px solid #EAEAEA ;border-radius:5px;bor ;margin-top: 27px;text-align: center;height: 40px;box-sizing: border-box">
-        <img src="images/google1.svg" style="position: relative;top: 8px">
-        <a style="text-align: center;text-decoration: none;color: #727272;position: relative;bottom:-5px" href="#">Continue with Google</a>
-    </div>
-    <div style="border: 1px solid #EAEAEA ;border-radius:5px;bor ;margin-top: 15px;text-align: center;height: 40px;box-sizing: border-box">
-        <img src="images/facebook1.svg" style="position: relative;top: 8px">
-        <a style="text-align: center;text-decoration: none;color: #727272;position: relative;bottom:-5px" href="#">Continue with Facebook</a>
-    </div>
+    <p class="text">Or register with</p>
+    <a class="google" href="#" >
+        <img src="images/google1.svg">
+        Continue with Google</a>
+    <a class="facebook" href="#" >
+        <img src="images/facebook1.svg">
+        Continue with Facebook</a>
 
 </div>
-<footer style="margin: auto;text-align: center;max-width:498px;background-color: #46A358;height: 10px;position: relative;top: -10px">
-</footer>
+
 
 </body>
 </html>
