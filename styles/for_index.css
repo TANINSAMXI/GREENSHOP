@@ -1,0 +1,145 @@
+.container_menu{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    max-width: 1200px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.1);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    position: relative;
+    top: 2px;
+}
+.menu li{
+    margin-right: 50px;
+    width: 40px;
+}
+.menu li:last-of-type{
+    margin-right: 0;
+}
+.menu li:nth-of-type(3){
+    width: 74px;
+}
+.menu li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+.menu li a:hover{
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu li:after{
+    height: 3px;
+    background-color: transparent;
+    content:"";
+    display: block;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.menu li:hover:after{
+    background-color: #46A358;
+}
+.log_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background: #46A358;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.container_menu .log_in:before{
+    background-image: url("../images/exit.svg");
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+.banner{
+    margin: auto;
+    max-width: 1200px;
+}
+.banner .container{
+    min-height: 450px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background: #F5F5F5
+}
+.banner article{
+    max-width: 557px;
+   display: inline-block;
+}
+article h3,article h1,article p{
+    padding: 0;
+    margin: 0;
+}
+article h3{
+    padding-top: 68px;
+    margin-bottom: 7px;
+    margin-left: 43px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+}
+.conteiner img{
+    margin-right: 120px;
+}
+article h1{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    display:block;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    width: 530px;
+    max-heigh: 140px;
+}
+h1 span{
+    color: #46A358;
+}
+article p{
+    color: #727272;
+    margin-left: 43px;
+    margin-bottom: 44px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 171%;
+}
+.container a{
+    margin-left: 41px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    background: #46A358 ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 10px 26px 10px;
+}
+
