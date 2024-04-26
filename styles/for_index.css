@@ -83,7 +83,7 @@
     position: relative;
     top: 2px;
 }
-.menu li{
+.menu .menu_li{
     margin-right: 50px;
     width: 40px;
 }
@@ -93,7 +93,7 @@
 .menu li:nth-of-type(3){
     width: 74px;
 }
-.menu li a{
+.menu .menu_li .menu_a{
     display: block;
     position: relative;
     text-decoration: none;
@@ -104,11 +104,11 @@
     font-family: 'cera_proregular';
     color: #3d3d3d;
 }
-.menu li a:hover{
+.menu .menu_li .menu_a:hover{
     font-weight: 600;
     font-size: 14px;
 }
-.menu li:after{
+.menu .menu_li:after{
     height: 3px;
     background-color: transparent;
     content:"";
@@ -116,9 +116,73 @@
     margin-top: 25px;
     transition: 0.5s;
 }
-.menu li:hover:after{
+.menu .menu_li:hover:after{
     background-color: #46A358;
 }
+
+
+
+header nav ul .drop_1{
+    display: block;
+    position: absolute;
+    background-color: #EDF6EE;
+    top:60px;
+    min-width: 188px;
+    height: 165px;
+    right: 10px;
+    opacity:0;
+    list-style:none;
+}
+header nav ul li.drop_menu_1:hover .drop_1{
+    opacity: 1;
+    transition: 0.5s;
+    height: 165px;
+}
+header nav ul .drop_1 li a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: cera_proregular;
+    padding: 10px 14px;
+    width: 188px;
+}
+.drop_1 li a:hover{
+    font-family: 'cera_probold';
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color:  #1a712a;
+}
+header nav ul .drop_1 li a svg{
+    margin-left: 90px;
+}
+header nav ul .drop_1 li:last-of-type:hover a svg{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+header nav ul .drop_1 li:last-of-type:hover a svg path{
+    fill: white;
+}
+header .drop_menu_2 .drop_2{
+    display: block;
+    background-color: #edf6ee;
+    position: relative;
+    left: 190px;
+    bottom: 160px;
+    opacity: 0;
+    height: 0;
+    min-width: 178px;
+    list-style: none;
+}
+header .drop_menu_2:hover .drop_2{
+    opacity: 1;
+    height: auto;
+}
+
+
+
 .log_in{
     padding: 8px 17px 7px;
     height: 35px;
