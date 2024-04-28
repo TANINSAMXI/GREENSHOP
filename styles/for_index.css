@@ -864,6 +864,90 @@ footer .mail form {
 }
 
 
+.shop_now_anim{
+    animation: shop 2s linear infinite;
+    transform-origin:50% 8em;
+}
+.shop_now_anim:hover{
+    animation: none;
+    background: #1a712a;
+
+
+}
+@keyframes shop {
+    0%,5%{
+        transform: rotateZ(0);
+    }
+    15%{
+        transform: rotateZ(-15deg);
+    }
+    20%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(-15deg);
+    }
+    30%{
+        transform: rotateZ(6deg);
+    }
+    35%{
+        transform: rotateZ(-4deg);
+    }
+    40%,100%{
+        transform: rotateZ(0);
+    }
+
+}
+.log_in:hover{
+    background: #1a712a;
+    rotate: 360deg;
+    transition: 2s;
+}
+.logo{
+    animation: logo 1.5s infinite;
+}
+@keyframes logo {
+  10%{
+      scale: 1.1;
+  }
+    35%{
+        scale: 1.15;
+    }
+    50%{
+        scale: 1.23;
+    }
+}
+.logo:hover{
+    animation: none;
+}
+.find_anim{
+    position: relative;
+    animation: find 1.5s infinite;
+}
+@keyframes find {
+    0%{
+        right: 100%;
+    }
+    25%{
+        right: 75%;
+    }
+    50%{
+        right: 50%;
+    }
+    75%{
+        right: 25%;
+    }
+    100%{
+        right:0%
+    }
+}
+.find_anim:hover{
+    animation: none;
+}
+.find_more:hover{
+    background: #1a712a;
+}
+
 
 
 
