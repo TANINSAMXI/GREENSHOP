@@ -168,9 +168,9 @@ header nav ul .drop_1 li:last-of-type:hover a svg path{
 header .drop_menu_2 .drop_2{
     display: block;
     background-color: #edf6ee;
-    position: relative;
+    position: absolute;
     left: 190px;
-    bottom: 160px;
+    bottom: -75px;
     opacity: 0;
     height: 0;
     min-width: 178px;
@@ -511,6 +511,7 @@ article p{
 .blogs{
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .summer_cuctus{
    position: relative;
@@ -659,6 +660,211 @@ article p{
     line-height: 114%;
     color: #46a358;
 }
+
+
+.flex_5{
+    display: flex;
+    max-width: 1200px;
+    height: 250px;
+    margin: auto;
+    justify-content: space-between;
+    background:#FBFBFB;
+    padding: 24px 25px;
+}
+
+.flex_5 img{
+    margin-bottom: 15px;
+}
+.offer h5{
+    margin-bottom: 9px;
+    font-family:'cera_probold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+}
+.offer p{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+}
+.flex_5 .offer:first-of-type{
+    padding-right: 30px;
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+}
+.flex_5 .offer:nth-of-type(2){
+    padding-right: 30px;
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+}
+.mail h5{
+    margin-top: 14px;
+    margin-bottom: 25px;
+    font-family:'cera_probold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+}
+
+footer .mail form {
+    display: inline-block;
+    display: flex;
+    margin-bottom: 18px;
+    min-height: 40px;
+}
+.mail form input{
+    background: #fff;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #acacac;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    width: 269px;
+    padding-left: 11px;
+
+}
+.mail form .button{
+    font-family: 'cera_probold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 89%;
+    color: #fff;
+    background: #46A358;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    width: 85px;
+
+}
+.mail p{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+}
+
+
+.background{
+    display: flex;
+    max-width: 1200px;
+    min-height: 88px;
+    margin: auto;
+    justify-content: space-between;
+    padding-right:22px;
+    padding-left: 23px;
+    padding-top:5px;
+    align-items: center;
+    background: -webkit-gradient(linear, left top, right top, from(#EDF6EF), to(#52C368));
+    background: -moz-linear-gradient(left,#EDF6EF, #52C368);
+    background: -ms-linear-gradient(left, #EDF6EF, #52C368);
+    background: -o-linear-gradient(left, #EDF6EF, #52C368);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.background ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 155px;
+}
+.background ul li a{
+    text-decoration: none;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    display: flex;
+    align-items: center;
+}
+.background .position:before{
+    content: "";
+    background-image: url("../images/position.svg");
+    width: 18px;
+    height: 18px;
+    display:inline-block;
+    margin-right: 9px;
+}
+.background .e_adress:before{
+    content: "";
+    background-image: url("../images/e_adresssvg.svg");
+    width: 20px;
+    height: 18px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.background .cell:before{
+    content: "";
+    background-image: url("../images/cell.svg");
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    margin-right: 8px;
+}
+
+.flex_6{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 236px;
+    margin: auto;
+    background:#FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding-top: 33px;
+    padding-left: 25px;
+    padding-right: 155px;
+}
+.flex_6 h5{
+    margin-bottom: 8px;
+    font-family: 'cera_probold';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.flex_6 ul{
+    list-style: none;
+}
+.flex_6 ul li a{
+    text-decoration: none;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+}
+
+.social_media ul{
+    margin-top: 20px;
+    margin-bottom: 33px;
+
+}
+.social_media ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social_media h5:last-of-type{
+    margin-bottom: 13px;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    margin-bottom: 22px;
+}
+
+
+
 
 
 
