@@ -7,9 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GreenShop</title>
     <link rel="stylesheet" href="styles/for_index.css">
+    <link rel="stylesheet" href="styles/preproc.css">
     <link rel="icon" href="images/logo_page.svg">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
+<div class="loader_bg">
+    <div class="loader">
+        <img class="loader_img" src="images/logo_page3.svg" alt="img">
+    </div>
+</div>
 <header>
     <div class="container_menu">
         <a class="logo" href="#">
@@ -666,5 +673,11 @@
         </p>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 7000);
+</script>
 </body>
 </html>

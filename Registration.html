@@ -10,6 +10,11 @@
     <title>GreenShop</title>
 </head>
 <body>
+<div class="loader_bg">
+    <div class="loader">
+        <img class="loader_img" src="images/logo_page3.svg" alt="img">
+    </div>
+</div>
 <div class="container" >
     <div class="main" >
         <span class="main__log" >Login</span>
@@ -54,7 +59,12 @@
         Continue with Facebook</a>
 
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 7000);
+</script>
 
 </body>
 </html>

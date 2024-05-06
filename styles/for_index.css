@@ -77,7 +77,6 @@
     padding: 0;
     position: relative;
     right: 80px;
-
 }
 .logo{
     position: relative;
@@ -908,13 +907,13 @@ footer .mail form {
 }
 @keyframes logo {
   10%{
-      scale: 1.1;
+      scale: 0.55;
   }
     35%{
-        scale: 1.15;
+        scale: 0.75;
     }
     50%{
-        scale: 1.23;
+        scale: 1.1;
     }
 }
 .logo:hover{
@@ -922,7 +921,7 @@ footer .mail form {
 }
 .find_anim{
     position: relative;
-    animation: find 1.5s infinite;
+    animation: find 1.5s linear infinite;
 }
 @keyframes find {
     0%{
@@ -938,7 +937,7 @@ footer .mail form {
         right: 25%;
     }
     100%{
-        right:0%
+        right:0
     }
 }
 .find_anim:hover{
