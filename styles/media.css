@@ -1,12 +1,18 @@
-@media only screen and (max-width:430px)  {
+@media only screen and (max-width:428px)  {
+    * { margin: 0; }
+
+
+
     .container_menu{
+
         display: inherit;
         padding-left: 30px;
         padding-right: 30px;
     }
-   .log_in{
+    .log_in{
        width: min-content;
        margin-bottom: 15px;
+        margin-left: 240px;
    }
     .logo{
         display: inline-block;
@@ -21,7 +27,7 @@
     .container{
         display: flex;
         flex-direction: column;
-        max-width: 428px;
+
         padding-right: 30px;
     }
     .container h1{
@@ -69,6 +75,128 @@
         display: inline-flex;
         margin-right:80px;
     }
+    .blogs .flex_3{
+        flex-direction: column;
+        margin: inherit;
+        padding: inherit;
+        margin-bottom: 20px;
+
+    }
+    .blogs .flex_3 div h4{
+        max-width: 428px;
+        top: 30px;
+
+    }
+    .blogs .flex_3 div p{
+        max-width: 220px;
+        top: 75px;
+
+
+    }
+    .blogs .flex_3 div a{
+        top: 165px;
+
+
+    }
+    .blogs .flex_3 div img{
+        max-width: 428px;
+
+
+    }
+    .our_blogs{
+        flex-direction: column;
+        width: 360px;
+
+
+    }
+    .blogs .flex_4 {
+        margin: auto;
+        max-width: 240px;
+
+
+    }
+    .blogs .flex_4 article {
+        margin: inherit;
+        padding: inherit;
+
+
+    }
+    .flex_5{
+        display: flex;
+
+        height: auto;
+        flex-direction: column;;
+        background:#FBFBFB;
+    }
+    .flex_5 .offer{
+
+        padding-right: 30px;
+        border-right: 1px solid rgba(70, 163, 88, 0.1);
+        margin-left: 5px;
+        border-left: 1px solid rgba(70, 163, 88, 0.1);
+        padding-left: 100px;
+    }
+    .background{
+        display: flex;
+
+        min-height: auto;
+        flex-direction: column;
+        padding: inherit;
+        padding-top: 10px;
+        margin: inherit;
+        align-items:flex-start;
+        padding-left: 120px;
+
+    }
+    .background ul{
+
+        display: block;
+        list-style: none;
+        align-items: center;
+        gap: inherit;
+        padding-bottom: 10px;
+    }
+    .background ul li a{
+
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .flex_6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+
+        height: auto;
+        margin: 0;
+        padding: 15px;
+
+
+    }
+    .social_media h5{
+        padding-top: 10px;
+    }
+    .flex_6 ul{
+        margin-bottom: 20px;
+    }
+    header .drop_menu_2 .drop_2{
+        display: block;
+        background-color: #edf6ee;
+        position: absolute;
+        left: 0;
+    }
+    header nav ul .drop_1{
+        display: block;
+        position: absolute;
+        background-color: #EDF6EE;
+        bottom: inherit;
+        top: 0;
+        left: 0;
+        right: inherit;
+    }
+
+
+
 
 
 
