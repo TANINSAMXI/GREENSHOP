@@ -1,3 +1,6 @@
+setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+}, 800);
 $('.owl-carousel').owlCarousel({
     autoplay:true,
     autoplayTimeout: 1100,
@@ -15,3 +18,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+$( function() {
+    $( "#accordion" ).accordion();
+} );
