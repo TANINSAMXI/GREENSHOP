@@ -27,16 +27,17 @@
     <div class="container_menu">
         <a class="logo" href="#">
             <img src="images/logo.svg" alt="logo"></a>
-            <nav>
-                <ul class="menu">
-                    <li class="menu_li">
-                        <a class="menu_a" href="#">Home</a>
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="menu nav__list">
+                    <li class="menu_li nav__list-item">
+                        <a class="menu_a hover-target" href="#">Home</a>
                     </li>
-                    <li class="menu_li">
-                        <a class="menu_a" href="#">Shop</a>
+                    <li class="menu_li nav__list-item">
+                        <a class="menu_a hover-target" href="#">Shop</a>
                     </li>
-                    <li class="menu_li drop_menu_1">
-                        <a class="menu_a plant_care" href="#">Plant Care</a>
+                    <li class="menu_li drop_menu_1 nav__list-item">
+                        <a class="menu_a plant_care hover-target" href="#">Plant Care</a>
                         <ul class="drop_1">
                             <li>
                                 <a href="#">Drainage</a>
@@ -74,14 +75,32 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="menu_li">
-                        <a class="menu_a" href="#">Blogs</a>
+                    <li class="menu_li nav__list-item">
+                        <a class="menu_a hover-target" href="#">Blogs</a>
                     </li>
                 </ul>
             </nav>
+        </div>
+        <div class="nav-but-wrap" style="background-color: #46A358">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
         <a class="log_in" href="Registration.html" >Login</a>
+
     </div>
-</header>
+ </header>
+
+
+
+
+
+
+
+
+
 <main>
     <section class="banner">
         <div class="container">
@@ -94,7 +113,7 @@
                 </p>
                 <a class="shop_now_anim" href="#">SHOP NOW</a>
             </article>
-            <img src="images/pots.png" alt="pots_image">
+            <img class="pots" src="images/pots.png" alt="pots_image">
         </div>
     </section>
     <section class="categories">
